@@ -6,6 +6,62 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/button_"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="1"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="1"
+        tools:layout_editor_absoluteX="229dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <Button
+        android:id="@+id/button_6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="1"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <Button
+        android:id="@+id/button_7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="1"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <Button
+        android:id="@+id/button_3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="1"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <Button
+        android:id="@+id/button_4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="1"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <Button
+        android:id="@+id/button_5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="1"
+        tools:layout_editor_absoluteX="229dp"
+        tools:layout_editor_absoluteY="179dp" />
+
     <EditText
         android:id="@+id/editScreen"
         android:layout_width="wrap_content"
@@ -13,11 +69,21 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="32dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/edit_text_border"
         android:ems="10"
-        android:gravity="right"
+        android:gravity="right|center_vertical"
         android:hint="0"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="1"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="100dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
